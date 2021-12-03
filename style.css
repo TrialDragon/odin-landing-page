@@ -189,3 +189,12 @@ footer {
 footer span {
 	margin: 0px 5px;
 }
+
+footer li {
+	list-style: none;
+}
+
+footer a {
+	color: #E5E7EB;
+	text-decoration: none;
+}
