@@ -65,17 +65,16 @@ header h1 {
 	margin: 0;
 }
 
-.bottom .left button {
+button {
 	background-color: #3882F6;
 	color: #E5E7EB;
-	border: none;
 	border-radius: 8px;
-	padding: 8px 32px;
-	font-size: 16px;
 }
 
-.bottom .left button:hover {
-	background-color: #295caf;
+.bottom .left button {
+	border: none;
+	padding: 8px 32px;
+	font-size: 16px;
 }
 
 .bottom img {
@@ -146,4 +145,29 @@ header h1 {
 	margin: 0px 60px;
 	font-style: normal;
 	align-self: flex-end;
+}
+
+.call-to-action {
+	display: flex;
+	background-color: #3882F6;
+	color: #E5E7EB;
+	margin: 80px 256px;
+	padding: 45px 160px;
+	border-radius: 10px;
+	justify-content: space-between;
+}
+
+.call-to-action h2, .call-to-action p {
+	margin: 0;
+}
+
+.call-to-action button {
+	padding: 5px 40px;
+	border: #E5E7EB solid 2px;
+	align-self: center;
+	font-weight: 700;
+}
+
+button:hover {
+	background-color: #295caf;
 }
